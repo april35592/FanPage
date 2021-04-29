@@ -103,6 +103,14 @@ article {
   z-index: 1;
   display: flex;
   justify-content: space-around;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
+
+.appear {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 article > img {
